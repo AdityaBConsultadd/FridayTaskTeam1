@@ -2,7 +2,6 @@ import java.util.Arrays;
 
 class Problem2 {
     public static void main(String[] args) {
-
         char[] ch = {'a', 'a', 'a', 'a', 'b', 'b', 'b', 'c', 'c', 'c', 'c'};
         System.out.print(Arrays.toString(ch) + " = ");
         int[] freq = new int[ch.length];
